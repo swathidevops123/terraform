@@ -1,9 +1,9 @@
 resource "aws_instance" "demo" {
-					ami 				      =     "ami-0a531e5afd4d5f3ad"
-					instance_type		      =     "t2.micro"
+					ami 				      =     "ami-0667149a69bc2c367"
+					instance_type		      =     "t2.nano"
 					monitoring			      =     "false"
-					key_name			      =     "junedevops"
-					subnet_id			      =     "subnet-006956d784051a51c"
+					key_name			      =     "swathidevops"
+					subnet_id			      =     "subnet-02c19e644e334f257"
 					associate_public_ip_address   =     "true"
 					source_dest_check		      =     "true"
 					root_block_device {
